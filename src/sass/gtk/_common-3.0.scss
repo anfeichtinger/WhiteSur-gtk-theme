@@ -3933,7 +3933,7 @@ placessidebar {
       color: $selected_bg_color;
 
       &:drop(active):not(:disabled) {
-        &, label, .sidebar-icon { color: $selected_fg_color; }
+        &, label, .sidebar-icon { color: shade($selected_fg_color, 2); }
         background-color: $selected_bg_color;
       }
     }

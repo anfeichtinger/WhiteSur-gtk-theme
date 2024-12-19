@@ -11,7 +11,7 @@ for theme in '' '-blue' '-purple' '-pink' '-red' '-orange' '-yellow' '-green' '-
         theme_color='#2E7CF7'
         ;;
       -purple)
-        theme_color='#9A57A3'
+        theme_color='#4B417A'
         ;;
       -pink)
         theme_color='#E55E9C'

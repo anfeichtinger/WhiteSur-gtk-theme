@@ -102,11 +102,7 @@ $flap_sidebar_size: 240px;
 
           &.sidebar-row {
             .sidebar-icon {
-              @if $gnome_version == 'old' {
-                color: if($variant == 'light', $selected_bg_color, lighten($selected_bg_color, 20%));
-              } @else {
-                color: if($variant == 'light', $selected_bg_color, color-mix(in srgb, white 20%, $selected_bg_color));
-              }
+                color: if($variant == 'light', $selected_bg_color, shade($selected_bg_color, 2));
             }
           }
         }
