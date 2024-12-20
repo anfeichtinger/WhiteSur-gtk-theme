@@ -100,7 +100,7 @@ OPTIONS:
   --shell, --gnomeshell 
    Tweaks for gnome-shell. Options:
 
-     1. -i, -icon [apple|simple|gnome|ubuntu|tux|arch|manjaro|fedora|debian|void|opensuse|popos|mxlinux|zorin|budgie|gentoo]
+     1. -i, -icon [apple|simple|gnome|ubuntu|tux|arch|manjaro|fedora|debian|void|opensuse|popos|mxlinux|zorin|budgie|gentoo|windows]
      Set gnome-shell panel 'Activities' icon. Default is 'standard'
 
      2. -b, -background [default|blank|IMAGE_PATH]
@@ -213,7 +213,7 @@ OPTIONS:
 
   -g, --gdm    Without options default GDM theme will install... 
 
-      1. -i, -icon [apple|simple|gnome|ubuntu|tux|arch|manjaro|fedora|debian|void|opensuse|popos|mxlinux|zorin|budgie|gentoo]   Set GDM panel 'Activities' icon Default is 'standard'
+      1. -i, -icon [apple|simple|gnome|ubuntu|tux|arch|manjaro|fedora|debian|void|opensuse|popos|mxlinux|zorin|budgie|gentoo|windows]   Set GDM panel 'Activities' icon Default is 'standard'
 
       2. -b, -background [default|blank|IMAGE_PATH]   Set GDM background image Default is BigSur-like wallpaper
 
