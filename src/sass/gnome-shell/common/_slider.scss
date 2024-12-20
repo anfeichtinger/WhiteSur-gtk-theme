@@ -2,7 +2,7 @@
 
 $slider_color: if($variant == 'light', white, white);
 $barlevel_bg_color: if($variant == 'light', rgba(black, 0.1), rgba(white, 0.1));
-$barlevel_active_bg_color: if($variant == 'light', white, rgba(white, 0.35));
+$barlevel_active_bg_color: if($variant == 'light', $primary_color, $primary_color);
 $barlevel_boder_color: if($variant == 'light', rgba(black, 0.15), transparent);
 
 .slider {
